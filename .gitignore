@@ -1,3 +1,15 @@
 data/clean/
+# Large raw files; R/02_build_covariates.R downloads them if missing.
+data/raw/SAINC.zip
+data/raw/us.1969_2024.20ages.adjusted.txt.gz
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
 .Rhistory
 .DS_Store
