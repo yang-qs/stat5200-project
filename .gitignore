@@ -13,3 +13,13 @@ report/*.fdb_latexmk
 report/*.synctex.gz
 .Rhistory
 .DS_Store
+presentation/*.aux
+presentation/*.log
+presentation/*.out
+presentation/*.nav
+presentation/*.snm
+presentation/*.toc
+presentation/*.vrb
+presentation/*.fls
+presentation/*.fdb_latexmk
+presentation/*.synctex.gz

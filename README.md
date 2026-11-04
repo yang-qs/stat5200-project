@@ -43,10 +43,14 @@ R/04_massachusetts_scm.R        synthetic Massachusetts and placebo inference
 R/05_did_sdid.R                 TWFE DiD, event study, synthetic DiD, implied price elasticity
 R/06_robustness.R               in-time placebo, no-neighbour donor pool, alternative predictors,
                                 alternative timing, leave-one-out
+R/07_replication_comparison.R   California replication next to the published ADH (2010) numbers
+                                (tables and MSPE-ratio figure for the presentation)
 data/raw/                       untouched downloaded data
 data/clean/                     generated analysis panels (not in git)
 output/                         generated tables (.tex), figures (.pdf) and fitted objects (.rds)
 report/main.tex                 the report; it reads tables and figures from output/
+presentation/slides.tex         replication presentation (Beamer); reads from output/
+presentation/script.md          speaker script for the recorded presentation
 ```
 
 ## Reproduce
